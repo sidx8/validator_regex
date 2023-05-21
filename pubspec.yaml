@@ -1,7 +1,7 @@
 name: validator
 description: A Dart package for email, url and ip address validation useing regex.
 version: 0.0.1
-homepage:
+homepage: https://github.com/sidx8/validator
 
 environment:
   sdk: ">=2.19.6 <3.0.0"
