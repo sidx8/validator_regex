@@ -65,9 +65,9 @@ bool isIpValid = Validator.ipAddress('192.168.1.1'); //IPv4
 
 ## Additional information
 
-For more detailed examples and usage, please refer to the [example]() directory.
+For more detailed examples and usage, please refer to the [example](https://github.com/sidx8/validator/tree/main/example) directory.
 
-If you find any bugs or issues, please file them on the [issue tracker]().
+If you find any bugs or issues, please file them on the [issue tracker](https://github.com/sidx8/validator/issues).
 
 We welcome contributions! If you would like to contribute to the project, feel free to fork the repository and submit a pull request.
 
