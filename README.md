@@ -50,7 +50,7 @@ to fetch the package.
 You can use the methods provided by the Validator class to validate emails, URLs, and IP addresses:
 
 ```dart
-import 'package:your_package/validator.dart';
+import 'package:validator/validator.dart';
 
 // For Email
 bool isEmailValid = Validator.email('test@test.com');
