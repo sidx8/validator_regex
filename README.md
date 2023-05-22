@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-# Validator
+# Validator_regex
 
 Validator is a Dart package that provides simple and convenient methods to validate common input data such as emails, URLs, and IP addresses. This package can be particularly useful in situations where you need to validate user input in your Flutter application.
 
