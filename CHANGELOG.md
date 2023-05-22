@@ -21,3 +21,7 @@
 ## 1.0.1
 
 - fix formating issues.
+
+## 1.0.2
+
+- added dart doc.
