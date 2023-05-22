@@ -1,5 +1,5 @@
 // Import the validator package
-import 'package:validator/validator.dart';
+import 'package:validator_regex/validator_regex.dart';
 
 void main() {
   // Test email validation

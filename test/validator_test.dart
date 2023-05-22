@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:validator/validator.dart';
+import 'package:validator_regex/validator_regex.dart';
 
 void main() {
   test('Email Validation', () {
