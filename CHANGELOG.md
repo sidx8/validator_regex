@@ -25,3 +25,7 @@
 ## 1.0.2
 
 - added dart doc.
+
+## 1.1.0
+
+- added methods for credit card and password strength as well as number checking

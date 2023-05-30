@@ -20,6 +20,10 @@ Validator is a Dart package that provides simple and convenient methods to valid
 - Email validation: Checks whether a given string matches the standard format for an email address.
 - URL validation: Determines whether a given string is a well-formed URL.
 - IP Address validation: Validates that a string is a correctly formatted IP address, supporting both IPv4 and IPv6 formats.
+- Digits validation: Checks whether a string only contains digits, optionally validating decimals and fractions.
+- Alphanumeric validation: Checks whether a string only contains alphanumeric characters, optionally including spaces.
+- Password strength validation: Validates the strength of a password, ensuring it contains a mix of characters and is of sufficient length.
+- Credit Card validation: Checks whether a given string matches the format for a credit card number.
 
 ## Getting started
 
@@ -50,7 +54,7 @@ to fetch the package.
 You can use the methods provided by the Validator class to validate emails, URLs, and IP addresses:
 
 ```dart
-import 'package:validator/validator.dart';
+import 'package:validator_regex/validator_regex.dart';
 
 // For Email
 bool isEmailValid = Validator.email('test@test.com');
@@ -60,6 +64,19 @@ bool isUrlValid = Validator.url('https://www.test.com');
 
 // For IP Address
 bool isIpValid = Validator.ipAddress('192.168.1.1'); //IPv4
+
+// For Digits
+bool areDigitsValid = Validator.digits('123', whole: true);
+
+// For Alphanumeric
+bool isAlphanumericValid = Validator.alphanumeric('abc123', withSpace: false);
+
+// For Password
+bool isPasswordValid = Validator.moderatePassword('Passw0rd!');
+
+// For Credit Card
+bool isCardValid = Validator.creditCard('4111111111111111');
+
 
 ```
 

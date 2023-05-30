@@ -1,6 +1,6 @@
 name: validator_regex
 description: A Dart package for email, url and ip address validation useing regex.
-version: 1.0.2
+version: 1.1.0
 homepage: https://github.com/sidx8/validator
 
 environment:
